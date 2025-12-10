@@ -1,46 +1,53 @@
-# Virtual Art Gallery - Team Project
+# Virtual Art Gallery – Final Project
 
-A web application that displays artworks from the Art Institute of Chicago API.
+Live site: https://your-username.github.io/art-gallery/  
+Repo: https://github.com/your-username/art-gallery
 
-## Team Members
+hey this is the art gallery thing we threw together for the final  
+pulls real paintings from the Art Institute of Chicago – no api key, no rate limits, works every time
 
-- **Mike**: Home page, Search feature, CSS styling
-- **Madox**: Random gallery, Artist search features  
-- **Zach**: Utilities, Configuration, Documentation
+## who did what (roughly)
 
-## Project Structure
+- Madox – random page + artist search page + deployed it  
+- Mike – home page, search page, all the css (he’s the reason the cards zoom on hover)  
+- Zach – cleaned up the js, fixed bugs, wrote most of this readme and the wireframes
 
-```
-art-gallery-team/
-├── Mike/
-│   ├── index.html
-│   ├── search.html
-│   └── assets/
-│       ├── css/style.css
-│       └── js/search.js
-├── Madox/
-│   ├── random.html
-│   ├── artist.html
-│   └── assets/js/
+we just used one repo and switched branches when we remembered lol
+
+## what it does
+
+- home – welcome page with a big painting  
+- search – type anything (monet, cats, sunflowers…) and get results  
+- random – click the button → 9 new random artworks  
+- artist – type picasso, van gogh, whoever → see their stuff
+
+looks decent on phones too
+
+## folder structure
+art-gallery/
+├── index.html
+├── search.html
+├── random.html
+├── artist.html
+├── assets/
+│   ├── css/style.css
+│   └── js/
+│       ├── main.js
+│       ├── search.js
 │       ├── random.js
 │       └── artist.js
-└── Zach/
-    ├── README.md
-    └── assets/js/
-        ├── main.js
-        ├── utils.js
-        └── config.js
-```
+├── wireframes/          (four pngs we made in diagrams.net)
+└── README.md            (this file)
 
-## Technologies
+## how to run it
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Art Institute of Chicago API
+just open index.html in your browser  
+or use Live Server in VS Code – works either way
 
-## API Information
+wireframes are in the wireframes folder like the assignment said
 
-- Base URL: `https://api.artic.edu/api/v1`
-- Image API: `https://www.artic.edu/iiif/2`
+that’s literally it  
+hope it works when you check it
 
+– madox, mike, zach  
+december 2025
