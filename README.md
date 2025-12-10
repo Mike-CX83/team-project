@@ -1,7 +1,7 @@
 # Virtual Art Gallery – Final Project
 
-Live site: https://your-username.github.io/art-gallery/  
-Repo: https://github.com/your-username/art-gallery
+Live site: https://mike-cx83.github.io/team-project/  
+Repo: https://github.com/Mike-CX83/team-project
 
 hey this is the art gallery thing we threw together for the final  
 pulls real paintings from the Art Institute of Chicago – no api key, no rate limits, works every time
